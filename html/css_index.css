@@ -125,3 +125,12 @@ header > nav > ul > li > a > div > span {
       text-decoration: none;
    }
 }
+
+.contact {
+   color: #ffffff;
+}
+
+#message {
+   width: 20em;
+   height: 10em;
+}
