@@ -134,3 +134,10 @@ header > nav > ul > li > a > div > span {
    width: 20em;
    height: 10em;
 }
+
+#twitter {
+   padding-top: 50%;
+   color: #000000;
+   text-align: center;
+
+}
