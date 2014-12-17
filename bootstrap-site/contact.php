@@ -1,5 +1,7 @@
 <?php
-	?>
+session_start();
+require_once("csrf.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +30,7 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<script type="text/javascript" src="contact.js"></script>
 </head>
 
 <body>
@@ -54,5 +57,38 @@
 		</div><!--/.nav-collapse -->
 	</div>
 </nav>
+
+<body role="document">
+<div class="container theme-showcase" role="main">
+	<article>
+		<div class="page-header">
+			<h1>Contact Us</h1>
+
+		</div>
+		<form id="contactForm" method="post" action="../form-processors/contact-us-form-processor.php">
+			<?php echo generateInputTags(); ?>
+			<p>
+				<label for="name">Name</label><br />
+				<input type="text" id="name" name="name" size="32" placeholder="Enter your name" />
+			</p>
+			<p>
+				<label for="email">Email</label><br />
+				<input type="text" id="email" name="email" size="32" placeholder="Enter your Email Address" />
+			</p>
+
+			<p>
+				<label for="message">Message</label><br />
+				<textarea id="message" name="message" cols="32" rows="8" placeholder="Enter your message here"></textarea>
+			</p>
+			<p>
+				<label>Submit</label><br />
+				<button id="contactUs" class="btn btn-primary" type="submit">Send</button>
+				<button class="btn btn-primary" type="reset">Clear</button>
+			</p>
+		</form>
+		<p id="outputContactUs"></p>
+	</article>
+</div>
+</body>
 </body>
 </html>
