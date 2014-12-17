@@ -29,7 +29,7 @@ try {
 	$headers["To"] 			= $to;
 	$headers["From"] 			= $from;
 	$headers["Reply-To"] 	= $from;
-	$headers["Subject"] 		= $_POST["name"] . " sent a message from RGEvents.com";
+	$headers["Subject"] 		= $_POST["name"] . " sent a message from Brendan ";
 	$headers["MIME-Version"] = "1.0";
 	$headers["Content-Type"] = "text/html; charset=UTF-8";
 
