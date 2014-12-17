@@ -6,7 +6,7 @@ html {font-size: 100%;height: auto !important;height: 100%;-webkit-text-size-adj
 .clear::after {clear: both;content: ".";display: block;height: 1px;visibility: hidden;}
 
 body {
-color: lightgreen;
+     background-color: lightgreen;
 }
 
 
