@@ -39,3 +39,8 @@
 body {
    background: rgb(191,191,182);
 }
+
+#portfolio-link {
+   text-align: center;
+   font-size: large;
+}
