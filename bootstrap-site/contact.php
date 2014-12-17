@@ -45,11 +45,11 @@ require_once("csrf.php");
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="home-page.html">Brendan Slevin</a>
+			<a class="navbar-brand" href="../index.html">Brendan Slevin</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="home-page.html">Home</a></li>
+				<li><a href="../index.html">Home</a></li>
 				<li><a href="resume1.html">My Resume</a></li>
 				<li><a href="portfolio1.html">My Portfolio</a></li>
 				<li class="active"><a href="contact.php">Contact Me</a></li>
