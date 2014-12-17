@@ -6,12 +6,11 @@ html {font-size: 100%;height: auto !important;height: 100%;-webkit-text-size-adj
 .clear::after {clear: both;content: ".";display: block;height: 1px;visibility: hidden;}
 
 body {
-     background-color: lightgreen;
+     background-color: forestgreen;
 }
 
 #picture {
 
-   padding-right: 30%;
 }
 
 
