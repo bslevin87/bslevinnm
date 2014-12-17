@@ -65,7 +65,7 @@ require_once("csrf.php");
 			<h1>Contact Me</h1>
 
 		</div>
-		<form id="contactForm" method="post" action="../form-processors/contact-us-form-processor.php">
+		<form id="contactForm" method="post" action="contact-form-processor.php">
 			<?php echo generateInputTags(); ?>
 			<p>
 				<label for="name">Name</label><br />

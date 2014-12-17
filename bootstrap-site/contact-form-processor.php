@@ -40,7 +40,7 @@ try {
 	<body>
         <h1>A wonderful user sent a message!</h1>
         <hr />
-        <p>A user has sent an email through the Contact Us form on RGEvents.com. Please make sure to review the email, and reach out to the user if needed.</p>
+
   	</body>
 </html>
 $insertMessage
