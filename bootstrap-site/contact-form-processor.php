@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once("/etc/apache2/capstone-mysql/rgevents.php");
+
 require_once("csrf.php");
 require_once("Mail.php");
 

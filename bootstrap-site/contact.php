@@ -62,7 +62,7 @@ require_once("csrf.php");
 <div class="container theme-showcase" role="main">
 	<article>
 		<div class="page-header">
-			<h1>Contact Us</h1>
+			<h1>Contact Me</h1>
 
 		</div>
 		<form id="contactForm" method="post" action="../form-processors/contact-us-form-processor.php">
