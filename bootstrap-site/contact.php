@@ -14,6 +14,9 @@ require_once("csrf.php");
 
 	<title>Brendan Slevin</title>
 
+	<!-- icon for the browser tab -->
+	<link rel="icon" href="images/logo_images.jpg" type="image/x-icon" />
+
 	<!-- Bootstrap core CSS -->
 	<link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="css1.css" rel="stylesheet" type="text/css">
