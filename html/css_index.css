@@ -9,6 +9,10 @@ body {
      background-color: lightgreen;
 }
 
+#picture {
+   float: right;
+}
+
 
 header {
    background: linear-gradient(to left,rgb(36,127,35) 0,rgb(55,191,52) 100%);
